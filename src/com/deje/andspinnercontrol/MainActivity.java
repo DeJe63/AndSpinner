@@ -129,7 +129,7 @@ public class MainActivity extends Activity {
     /**
       * @autor Dana Jenett
       * @since 17.12.2012
-      * Beschreibung: Wird aufgerufen, wenn ein Button gedrück wird.
+      * Beschreibung: Wird aufgerufen, wenn ein Button gedrückt wird.
       * @param view
       */
     public void onButtonPressed(final View view) throws IOException{
