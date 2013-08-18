@@ -119,12 +119,12 @@ public class FtdiSerialDriver extends UsbSerialDriver {
     /**
      * Set the modem control register.
      */
-    private static final int SIO_MODEM_CTRL_REQUEST = 1;
+//    private static final int SIO_MODEM_CTRL_REQUEST = 1;
 
     /**
      * Set flow control register.
      */
-    private static final int SIO_SET_FLOW_CTRL_REQUEST = 2;
+//    private static final int SIO_SET_FLOW_CTRL_REQUEST = 2;
 
     /**
      * Set baud rate.
@@ -160,9 +160,9 @@ public class FtdiSerialDriver extends UsbSerialDriver {
         TYPE_BM, TYPE_AM, TYPE_2232C, TYPE_R, TYPE_2232H, TYPE_4232H;
     }
 
-    private int mInterface = 0; /* INTERFACE_ANY */
+//    private int mInterface = 0; /* INTERFACE_ANY */
 
-    private int mMaxPacketSize = 64; // TODO(mikey): detect
+//    private int mMaxPacketSize = 64; // TODO(mikey): detect
 
     private int mBaudRate;
     private int mDataBits;

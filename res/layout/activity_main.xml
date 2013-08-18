@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
-        <com.example.andspinnercontrol.AutoRepeatButton
+        <com.deje.andspinnercontrol.AutoRepeatButton
             android:id="@+id/sf_plus"
             android:layout_width="wrap_content"
             android:layout_height="116dp"
@@ -19,7 +19,7 @@
             android:onClick="onButtonPressed"
             android:text="@string/sf_textplus" />
 
-        <com.example.andspinnercontrol.AutoRepeatButton
+        <com.deje.andspinnercontrol.AutoRepeatButton
             android:id="@+id/sf_minus"
             android:layout_width="wrap_content"
             android:layout_height="116dp"
