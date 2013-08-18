@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndSpinnerControl</string>
+    <string name="menu_settings">Settings</string>
+    <string name="sf_textplus">+</string>
+    <string name="sf_textminus">-</string>
+    <string name="sf_textstart">Start</string>
+    <string name="sf_textstop">Stop</string>
+    <string name="sf_textrechts">Rechts</string>
+    <string name="sf_textlinks">Links</string>
+    <string name="sf_textstatus">Status</string>
+    <string name="sf_textbrake">Bremse</string>
+    
+</resources>

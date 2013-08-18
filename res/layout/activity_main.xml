@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.example.andspinnercontrol.AutoRepeatButton
+            android:id="@+id/sf_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:layout_weight="0.11"
+            android:textSize="80sp"
+            android:onClick="onButtonPressed"
+            android:text="@string/sf_textplus" />
+
+        <com.example.andspinnercontrol.AutoRepeatButton
+            android:id="@+id/sf_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:layout_weight="0.11"
+            android:textSize="80sp"
+            android:onClick="onButtonPressed"
+            android:text="@string/sf_textminus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/sf_start"
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:layout_weight="0.11"
+            android:textSize="80sp"
+            android:onClick="onButtonPressed"            
+            android:text="@string/sf_textstart" />
+
+        <Button
+            android:id="@+id/sf_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:layout_weight="0.11"
+            android:textSize="80sp"
+            android:onClick="onButtonPressed"
+            android:text="@string/sf_textstop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/sf_links"
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:layout_weight="0.11"
+            android:textSize="80sp"
+            android:onClick="onButtonPressed"
+            android:text="@string/sf_textlinks" />
+        
+        <Button
+            android:id="@+id/sf_rechts"
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:layout_weight="0.11"
+            android:textSize="80sp"
+            android:onClick="onButtonPressed"
+            android:text="@string/sf_textrechts" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/sf_status"
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:layout_weight="0.11"
+            android:textSize="80sp"
+            android:onClick="onButtonPressed"
+            android:text="@string/sf_textstatus" />  
+        <Button
+            android:id="@+id/sf_brake"
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:layout_weight="0.11"
+            android:textSize="80sp"
+            android:onClick="onButtonPressed"
+            android:text="@string/sf_textbrake" />  
+
+    </LinearLayout>
+
+    <ScrollView
+    android:id="@+id/tv_scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+
+        <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"/>
+    </ScrollView>
+
+</LinearLayout>
