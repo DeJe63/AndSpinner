@@ -119,7 +119,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.deje.andspinnercontrol:initial_delay
+          @attr name android:initial_delay
         */
         public static final int AutoRepeatButton_initial_delay = 0;
         /**
@@ -133,7 +133,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.deje.andspinnercontrol:repeat_interval
+          @attr name android:repeat_interval
         */
         public static final int AutoRepeatButton_repeat_interval = 1;
     };
